@@ -10,4 +10,6 @@ node
     sh "echo install"
     stage "download ansible playbook"
     sh "echo playbook"
+    stage "approval"
+    input "do you want to proceed"
 }
